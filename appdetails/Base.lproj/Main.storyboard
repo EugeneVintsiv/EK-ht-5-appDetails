@@ -112,7 +112,8 @@
                                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="downloadIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Kby-Nf-5A9">
                                                                 <rect key="frame" x="128" y="87" width="25" height="25"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                <color key="tintColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <color key="backgroundColor" red="0.44230143229166669" green="0.67125108506944442" blue="0.80897352430555558" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <color key="tintColor" red="0.29411764709999999" green="0.46274509800000002" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ekreative" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zso-Ga-fPU">
                                                                 <rect key="frame" x="128" y="52" width="52" height="15"/>
@@ -471,6 +472,7 @@
                     <size key="freeformSize" width="375" height="1500"/>
                     <connections>
                         <outlet property="appIcon" destination="usb-gN-Sds" id="DqE-ia-AGM"/>
+                        <outlet property="downloadIcon" destination="Kby-Nf-5A9" id="Lev-yH-PYC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bx1-K4-rBl" userLabel="First Responder" sceneMemberID="firstResponder"/>
