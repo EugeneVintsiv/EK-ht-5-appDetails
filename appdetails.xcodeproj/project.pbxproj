@@ -12,6 +12,7 @@
 		44AF054021A4CFF3002C98DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44AF053E21A4CFF3002C98DB /* Main.storyboard */; };
 		44AF054221A4CFF4002C98DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44AF054121A4CFF4002C98DB /* Assets.xcassets */; };
 		44AF054521A4CFF4002C98DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44AF054321A4CFF4002C98DB /* LaunchScreen.storyboard */; };
+		7C5F7C92B957F5EBB388A0ED /* MapaMagicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5F78CC27675ACFD62A57D5 /* MapaMagicViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		44AF054121A4CFF4002C98DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44AF054421A4CFF4002C98DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44AF054621A4CFF4002C98DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C5F78CC27675ACFD62A57D5 /* MapaMagicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapaMagicViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				44AF054121A4CFF4002C98DB /* Assets.xcassets */,
 				44AF054321A4CFF4002C98DB /* LaunchScreen.storyboard */,
 				44AF054621A4CFF4002C98DB /* Info.plist */,
+				7C5F78CC27675ACFD62A57D5 /* MapaMagicViewController.swift */,
 			);
 			path = appdetails;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			files = (
 				44AF053D21A4CFF3002C98DB /* ViewController.swift in Sources */,
 				44AF053B21A4CFF3002C98DB /* AppDelegate.swift in Sources */,
+				7C5F7C92B957F5EBB388A0ED /* MapaMagicViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
